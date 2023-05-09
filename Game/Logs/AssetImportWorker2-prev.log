@@ -15,7 +15,7 @@ D:/530240/Assignment 5/Game
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-55902
+50088
 Successfully changed project path to: D:/530240/Assignment 5/Game
 D:/530240/Assignment 5/Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/530240/Assignment 5/Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 90.66 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 182.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.1.16f1 (7321c9670bc2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/Resources/UnitySubsystems
@@ -63,7 +63,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56008
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56804
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -74,7 +74,7 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.16f1/
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.023775 seconds.
+Registered in 0.038322 seconds.
 Native extension for UWP target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
@@ -87,42 +87,42 @@ Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 91.23 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 92.03 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.821 seconds
+- Completed reload, in  0.812 seconds
 Domain Reload Profiling:
-	ReloadAssembly (821ms)
-		BeginReloadAssembly (109ms)
+	ReloadAssembly (813ms)
+		BeginReloadAssembly (93ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (568ms)
-			LoadAssemblies (108ms)
+		EndReloadAssembly (554ms)
+			LoadAssemblies (95ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (138ms)
-				TypeCache.Initialize (138ms)
-					TypeCache.ScanAssembly (136ms)
-				ResolveRequiredComponents (1ms)
+			SetupTypeCache (136ms)
+				TypeCache.Initialize (136ms)
+					TypeCache.ScanAssembly (134ms)
+				ResolveRequiredComponents (0ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (336ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (322ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (80ms)
+				InitializePlatformSupportModulesInManaged (70ms)
 				SetLoadedEditorAssemblies (7ms)
-				RefreshPlugins (91ms)
+				RefreshPlugins (92ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (98ms)
-				ProcessInitializeOnLoadMethodAttributes (58ms)
+				ProcessInitializeOnLoadAttributes (106ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004154 seconds.
+Registered in 0.116486 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\530240\Assignment 5\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\530240\Assignment 5\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -134,49 +134,49 @@ Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.18 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.158 seconds
+- Completed reload, in  1.789 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2159ms)
-		BeginReloadAssembly (151ms)
+	ReloadAssembly (1790ms)
+		BeginReloadAssembly (149ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (1864ms)
-			LoadAssemblies (539ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (1477ms)
+			LoadAssemblies (567ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (278ms)
-				TypeCache.Initialize (274ms)
-					TypeCache.ScanAssembly (268ms)
-				ResolveRequiredComponents (4ms)
+			SetupTypeCache (339ms)
+				TypeCache.Initialize (334ms)
+					TypeCache.ScanAssembly (327ms)
+				ResolveRequiredComponents (5ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (982ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (485ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (37ms)
+				InitializePlatformSupportModulesInManaged (41ms)
 				SetLoadedEditorAssemblies (7ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (89ms)
-				ProcessInitializeOnLoadAttributes (797ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
-				AfterProcessingInitializeOnLoad (17ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (299ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (15ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 6.46 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3805 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 51 unused Assets / (3.2 MB). Loaded Objects now: 4267.
-Memory consumption went from 0.61 GB to 0.60 GB.
-Total: 25.657100 ms (FindLiveObjects: 2.573100 ms CreateObjectMapping: 4.493200 ms MarkObjects: 12.241700 ms  DeleteObjects: 6.201400 ms)
+Unloading 3849 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (3.2 MB). Loaded Objects now: 4312.
+Memory consumption went from 0.61 GB to 0.61 GB.
+Total: 7.040000 ms (FindLiveObjects: 0.634400 ms CreateObjectMapping: 0.142800 ms MarkObjects: 4.823100 ms  DeleteObjects: 1.437500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -190,503 +190,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 7573.145460 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_stevejobsbuhochristmas.png
-  artifactKey: Guid(08c91a7677e66844281a99aaf6ea36f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_stevejobsbuhochristmas.png using Guid(08c91a7677e66844281a99aaf6ea36f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48372d881d8a9d07302e153443041b8c') in 0.244706 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconcheckedoutlocaloverlay.png
-  artifactKey: Guid(4bd47f86a00dd2b4b8ab20a11de165f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconcheckedoutlocaloverlay.png using Guid(4bd47f86a00dd2b4b8ab20a11de165f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '164e95052328708557aaa116d4c8cd83') in 0.055600 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconaddedlocal.png
-  artifactKey: Guid(9a1ab8af8c446204e989a90f18305caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconaddedlocal.png using Guid(9a1ab8af8c446204e989a90f18305caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7c4486b66896f48e0b50d0d962d3681') in 0.085738 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_stevejobsbuhoshe.png
-  artifactKey: Guid(56e456ab0f7f79a4dbabcc9079c49a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_stevejobsbuhoshe.png using Guid(56e456ab0f7f79a4dbabcc9079c49a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1886f39dcce07091b8e1371a41ee4163') in 0.032139 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconbranch.png
-  artifactKey: Guid(a6219d44b6fc910449f7c3fee45db5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconbranch.png using Guid(a6219d44b6fc910449f7c3fee45db5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd446dce947762c53b4f295b4380b4d41') in 0.031887 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 472.034732 seconds.
-  path: Assets/Sun_Temple/Prefabs/FX
-  artifactKey: Guid(4e6670811b032a448aea7be23381d4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Prefabs/FX using Guid(4e6670811b032a448aea7be23381d4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a36264ff4d4815952715cdd3ea3a273f') in 0.021645 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.025602 seconds.
-  path: Assets/Sun_Temple/Prefabs/FX/FX_Bonfire_A.prefab
-  artifactKey: Guid(73f27ccf9452dc0478629d73cc918465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Prefabs/FX/FX_Bonfire_A.prefab using Guid(73f27ccf9452dc0478629d73cc918465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '449f35e4cea8a8688b66afa37e479488') in 0.174487 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.011021 seconds.
-  path: Assets/Sun_Temple/Prefabs/Decals
-  artifactKey: Guid(589032b8c987ab14ebf27fd820940504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Prefabs/Decals using Guid(589032b8c987ab14ebf27fd820940504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '972f90b125696a31f1fee3cd34aefcb2') in 0.041931 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.089757 seconds.
-  path: Assets/Sun_Temple/Prefabs/Decals/Dec_Ornament_A.prefab
-  artifactKey: Guid(539274d4a4345d74fa57ccadded19ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Prefabs/Decals/Dec_Ornament_A.prefab using Guid(539274d4a4345d74fa57ccadded19ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67ace63d0594bb074e80714502a0c57f') in 0.328808 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Sun_Temple/Prefabs/Decals/Dec_Ornament_C.prefab
-  artifactKey: Guid(6f6147866adbc1448b57f4f6afc0fa87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Prefabs/Decals/Dec_Ornament_C.prefab using Guid(6f6147866adbc1448b57f4f6afc0fa87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20e53a5d72e32ec6ffb045f0e4596597') in 0.070232 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Sun_Temple/Prefabs/Decals/Dec_OrnamentStrip_B.prefab
-  artifactKey: Guid(d18adc5d43933f3469d15d94445990f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Prefabs/Decals/Dec_OrnamentStrip_B.prefab using Guid(d18adc5d43933f3469d15d94445990f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4930c860c3a6a8da774e2eae0915b6e6') in 0.089935 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Sun_Temple/Prefabs/Decals/Dec_Puddle_A.prefab
-  artifactKey: Guid(f0c780d1d47fd574b97fed2fd808eb0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Prefabs/Decals/Dec_Puddle_A.prefab using Guid(f0c780d1d47fd574b97fed2fd808eb0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '957266b18d5ea3dece785296febe734c') in 0.116131 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Sun_Temple/Prefabs/Decals/Dec_OrnamentStrip_C.prefab
-  artifactKey: Guid(b8b9679b277808445881a6917e2bfabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Prefabs/Decals/Dec_OrnamentStrip_C.prefab using Guid(b8b9679b277808445881a6917e2bfabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f0c2d174d58fe81c42978d21c279d71') in 0.029768 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.700294 seconds.
-  path: Assets/Sun_Temple/PostProcessing
-  artifactKey: Guid(204c3a8d39c38d84eada8acc65b3886f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/PostProcessing using Guid(204c3a8d39c38d84eada8acc65b3886f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a38a60e19eaee318adf7ae2423d904a') in 0.020863 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.286859 seconds.
-  path: Assets/Sun_Temple/Resources
-  artifactKey: Guid(1979ca784c998c541b2085cbc3302779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Resources using Guid(1979ca784c998c541b2085cbc3302779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3180eabf884e161194e190d0e5bd70e3') in 0.019676 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.186773 seconds.
-  path: Assets/Sun_Temple/Resources/TerrainShaders
-  artifactKey: Guid(8418a16f91a30a948b4290627fedb545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Resources/TerrainShaders using Guid(8418a16f91a30a948b4290627fedb545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93805aabd05baff103c9ddba81b0692e') in 0.023203 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.751764 seconds.
-  path: Assets/Sun_Temple/Resources/TerrainShaders/Details
-  artifactKey: Guid(b0530951a2cfc7a408828d6f62f0da29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Resources/TerrainShaders/Details using Guid(b0530951a2cfc7a408828d6f62f0da29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca2f614f730289ac1524a1ab2650ff0d') in 0.009740 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.079968 seconds.
-  path: Assets/Sun_Temple/Content
-  artifactKey: Guid(17418a143a1a87e4badaf6ac03aba815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content using Guid(17418a143a1a87e4badaf6ac03aba815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1141139c993f697559fe923ada065a3b') in 0.017732 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.101637 seconds.
-  path: Assets/Sun_Temple/Content/Textures
-  artifactKey: Guid(e994a1ff826638347896794de341a8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures using Guid(e994a1ff826638347896794de341a8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a91c261a591495f28a22ca627b57ba6') in 0.021782 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.037034 seconds.
-  path: Assets/Sun_Temple/Content/Textures/bgr_clouds_A.tif
-  artifactKey: Guid(7a3971e717ea0ee4bb1ea9844c6afecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/bgr_clouds_A.tif using Guid(7a3971e717ea0ee4bb1ea9844c6afecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a610d62e977374a9c2c061caf3a28b17') in 0.095685 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Sun_Temple/Content/Textures/det_breakup1.tif
-  artifactKey: Guid(15967e284950a1c439f347faeb4e6fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/det_breakup1.tif using Guid(15967e284950a1c439f347faeb4e6fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19a6467654ec60fd02dfbe2eed18a81b') in 0.037129 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Sun_Temple/Content/Textures/prop_kitchenprops_R.tif
-  artifactKey: Guid(bb83480ef5792a54a9c19fb85150d3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/prop_kitchenprops_R.tif using Guid(bb83480ef5792a54a9c19fb85150d3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c11dacef52e8f05c9a984f7de9006fbb') in 0.141159 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Sun_Temple/Content/Textures/skybox_blue.tif
-  artifactKey: Guid(cdddf5ac4181fa646873f379f204e5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/skybox_blue.tif using Guid(cdddf5ac4181fa646873f379f204e5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce7e4c45d2e9576b63e8354778f9a5b5') in 0.095056 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Sun_Temple/Content/Textures/plaster_bluered_damaged_N.tiff
-  artifactKey: Guid(28c37a39bf4ef6a449af8d887d977c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/plaster_bluered_damaged_N.tiff using Guid(28c37a39bf4ef6a449af8d887d977c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d33c7b1aaf5337e657b9175b017daf9') in 0.140799 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Sun_Temple/Content/Textures/dec_ornaments.tif
-  artifactKey: Guid(ccf8c821f24da5342be83db35edae9b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/dec_ornaments.tif using Guid(ccf8c821f24da5342be83db35edae9b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b19c130f1483a1ae10f1a13711dd489f') in 0.078229 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Sun_Temple/Content/Textures/det_dirt2_N.tif
-  artifactKey: Guid(ff2b65a8706e65542b349a93e4066f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/det_dirt2_N.tif using Guid(ff2b65a8706e65542b349a93e4066f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '404c2c196419293e763b8f45552c4cc2') in 0.071113 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Sun_Temple/Content/Textures/dec_puddle2_A.tif
-  artifactKey: Guid(24d4d838e4cd8794cb48c88bf8d1646c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/dec_puddle2_A.tif using Guid(24d4d838e4cd8794cb48c88bf8d1646c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35fef0f52606236816c79a2815d37e09') in 0.052806 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Sun_Temple/Content/Textures/metal_plain_trim_N.tiff
-  artifactKey: Guid(d4fa2330feddc684e98db8ebac04a72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/metal_plain_trim_N.tiff using Guid(d4fa2330feddc684e98db8ebac04a72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da0caf73be3d55139405be01873f8d2') in 0.095754 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Sun_Temple/Content/Textures/prop_rocks2_A.tif
-  artifactKey: Guid(de8f8c2f5d7f2f44a87c44ca14261b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/prop_rocks2_A.tif using Guid(de8f8c2f5d7f2f44a87c44ca14261b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '611419140dec7888bccd80b9265376cb') in 0.108064 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Sun_Temple/Content/Textures/roof_metal_N.tif
-  artifactKey: Guid(142d9b79898a4684c82d3fc8b26de55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/roof_metal_N.tif using Guid(142d9b79898a4684c82d3fc8b26de55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaed7f9a940337536c61c9a39cf926fa') in 0.140078 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Sun_Temple/Content/Textures/dec_puddle_N.tif
-  artifactKey: Guid(870e8e2754f258e4883d31ae2668a9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/dec_puddle_N.tif using Guid(870e8e2754f258e4883d31ae2668a9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9ceadafe6ec0c9e4b18c7358b3bcfda') in 0.017912 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Sun_Temple/Content/Textures/templetrims_N.tiff
-  artifactKey: Guid(17b51d9c02e580f448efe4ed8bd94a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/templetrims_N.tiff using Guid(17b51d9c02e580f448efe4ed8bd94a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8a11e3b7446df02a76680041f84b88c') in 0.091687 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Sun_Temple/Content/Textures/prop_stonestash_A.tif
-  artifactKey: Guid(6cf8f613ca8bd4742bc7779904df3fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/prop_stonestash_A.tif using Guid(6cf8f613ca8bd4742bc7779904df3fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2678e224a2adabd403560a9f0f7f6feb') in 0.117094 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Sun_Temple/Content/Textures/roof_metal_R.tif
-  artifactKey: Guid(b286a2786dfdc6e49a27211b8ee34206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/roof_metal_R.tif using Guid(b286a2786dfdc6e49a27211b8ee34206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '910f8656fdf92f55b0c381188609bf6f') in 0.069221 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Sun_Temple/Content/Textures/glass_patterned_N.tiff
-  artifactKey: Guid(dcc99c3ee8081cf43922bfe0215aa2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/glass_patterned_N.tiff using Guid(dcc99c3ee8081cf43922bfe0215aa2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e77e8874f1c67e12b42180e8587d774') in 0.043417 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Sun_Temple/Content/Textures/bgr_errodedcliff_MASK.tif
-  artifactKey: Guid(c6dc0a1f790ab8042be5faff5655b1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/bgr_errodedcliff_MASK.tif using Guid(c6dc0a1f790ab8042be5faff5655b1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd979451b5d66cbd8e63f52f17794ee6a') in 0.049175 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Sun_Temple/Content/Textures/prop_fabric_A.tif
-  artifactKey: Guid(0dd092d4a80840e499121369f7a57b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/prop_fabric_A.tif using Guid(0dd092d4a80840e499121369f7a57b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e72db9200fd754aff68129567a0f7ebf') in 0.063395 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Sun_Temple/Content/Textures/plaster_red_A.tif
-  artifactKey: Guid(c26f1ca9edaa23a44b9e23c22a4e2339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/plaster_red_A.tif using Guid(c26f1ca9edaa23a44b9e23c22a4e2339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e42177ad0750678ce4223ab8543d062') in 0.090330 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Sun_Temple/Content/Textures/ground_sediment_N.tif
-  artifactKey: Guid(4eebddcf433eb224e9f55dacd715418c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/ground_sediment_N.tif using Guid(4eebddcf433eb224e9f55dacd715418c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '184c268539597b16aab5aa8494241ead') in 0.097855 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Sun_Temple/Content/Textures/prop_woodlogs_EM.tif
-  artifactKey: Guid(c1034516266bbd842b2165b9c6faba2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/prop_woodlogs_EM.tif using Guid(c1034516266bbd842b2165b9c6faba2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb23c091081928a44cf056dbfd4f9fd') in 0.122826 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Sun_Temple/Content/Textures/wood_tiling_N.tiff
-  artifactKey: Guid(730e47e8f3c1b0e498ce4849420ab3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/wood_tiling_N.tiff using Guid(730e47e8f3c1b0e498ce4849420ab3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebd16b5c379f842ce2c189f49013da0a') in 0.155786 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Sun_Temple/Content/Textures/plaster_desaturated_A.tif
-  artifactKey: Guid(aa71ecac94f191a46a3a9d51cfc4f562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/plaster_desaturated_A.tif using Guid(aa71ecac94f191a46a3a9d51cfc4f562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e605d6c8ded21378d8be40e46323b79') in 0.128288 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Sun_Temple/Content/Textures/roof_gold_N.tiff
-  artifactKey: Guid(925888bf3d638aa4f909c9426727392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/roof_gold_N.tiff using Guid(925888bf3d638aa4f909c9426727392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f00b97cf69dee6313aedf74da00c18e') in 0.094847 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Sun_Temple/Content/Textures/prop_stones_N.tiff
-  artifactKey: Guid(453d7f0ebf6c4024f97c25bc8a8b42b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/prop_stones_N.tiff using Guid(453d7f0ebf6c4024f97c25bc8a8b42b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9360510ee99fcfd2ccc2564db152d3e') in 0.043416 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Sun_Temple/Content/Textures/plaster_bluered_N.tif
-  artifactKey: Guid(c0c439fe24dd1824dba5f2d9c60cc7ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/plaster_bluered_N.tif using Guid(c0c439fe24dd1824dba5f2d9c60cc7ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c75d5b0f94ba9e34a1f8d53b9d7b2c') in 0.132014 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Sun_Temple/Content/Textures/wood_glazed_trim_A.tiff
-  artifactKey: Guid(ef59cad4871c09a48aa51daba634c287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/wood_glazed_trim_A.tiff using Guid(ef59cad4871c09a48aa51daba634c287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd0544715e34198c5bfea47609696e6') in 0.142961 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Sun_Temple/Content/Textures/det_mud_N.tif
-  artifactKey: Guid(2b0bf5423c7aea744abfc6f015fd2e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/det_mud_N.tif using Guid(2b0bf5423c7aea744abfc6f015fd2e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e24cfcb982105bd4943b0a796f3e38a') in 0.079677 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Sun_Temple/Content/Textures/ground_sediment_A.tif
-  artifactKey: Guid(0cd2a1783975e7144afe728058903172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/ground_sediment_A.tif using Guid(0cd2a1783975e7144afe728058903172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '142778d7cbad6db7519f313187a3fdda') in 0.139768 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Sun_Temple/Content/Textures/Marble_N.tiff
-  artifactKey: Guid(738062a2bf707e44bbf8dd6ad5024129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/Marble_N.tiff using Guid(738062a2bf707e44bbf8dd6ad5024129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99de691f4b823690f45b76f124972e54') in 0.122683 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Sun_Temple/Content/Textures/metal_plain_tiling_R.tif
-  artifactKey: Guid(1737486aaf48cd5498b4e4667abff8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/metal_plain_tiling_R.tif using Guid(1737486aaf48cd5498b4e4667abff8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29941e0cb399fe0f2eccbf855db9447d') in 0.098759 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Sun_Temple/Content/Textures/det_concrete_N.tif
-  artifactKey: Guid(ba939089f0681964c9217f51892feba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/det_concrete_N.tif using Guid(ba939089f0681964c9217f51892feba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f79493382b21afb82d915be2350a192') in 0.072900 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Sun_Temple/Content/Textures/pavementA_tiling_A.tiff
-  artifactKey: Guid(034999b241aa091449cdd44d25ef6f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/pavementA_tiling_A.tiff using Guid(034999b241aa091449cdd44d25ef6f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '510c0d969ce04c3443518a6bada70d30') in 0.106982 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Sun_Temple/Content/Textures/glass_patterned_R.tif
-  artifactKey: Guid(31e80536d9c42ad44811adeac9f3089e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/glass_patterned_R.tif using Guid(31e80536d9c42ad44811adeac9f3089e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '221a66020a212bc9b0bd873ab3ef092e') in 0.052772 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Sun_Temple/Content/Textures/prop_rocks_A.tif
-  artifactKey: Guid(ce2d9be16adf4eb408c965ea855cc439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/prop_rocks_A.tif using Guid(ce2d9be16adf4eb408c965ea855cc439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd57e64b7508c908876193449a05cbbf2') in 0.158224 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Sun_Temple/Content/Textures/prop_porcelain_tiling_A.tif
-  artifactKey: Guid(d56db2610aa09264aa2a270e80e380c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/prop_porcelain_tiling_A.tif using Guid(d56db2610aa09264aa2a270e80e380c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0028eabd31becc1adce66d1584eb5119') in 0.036630 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Sun_Temple/Content/Textures/bgr_mountains_A.tif
-  artifactKey: Guid(4c5207cb3f8198447a250a877fa3426b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/bgr_mountains_A.tif using Guid(4c5207cb3f8198447a250a877fa3426b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8284a0d6ae486bc742699e1255c4dba6') in 0.101962 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Sun_Temple/Content/Textures/pavementB_tiling_dirty_N.tif
-  artifactKey: Guid(1f0c079cbb0433e4fad6d3c79551e146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/pavementB_tiling_dirty_N.tif using Guid(1f0c079cbb0433e4fad6d3c79551e146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aee1c2acb59b82ada855d2de2c2d103d') in 0.115674 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Sun_Temple/Content/Textures/reflectioncube1.tif
-  artifactKey: Guid(cec1aafc575cb8a42bdf70bc4872576c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/reflectioncube1.tif using Guid(cec1aafc575cb8a42bdf70bc4872576c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34eb180ca3d55dec473755e7cda27144') in 0.043612 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Sun_Temple/Content/Textures/prop_candles_A.tif
-  artifactKey: Guid(60ffd803dccda0540b5270aabed5757d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/prop_candles_A.tif using Guid(60ffd803dccda0540b5270aabed5757d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9ff36360721d3bc02cc85bed3326d11') in 0.063880 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Sun_Temple/Content/Textures/det_mud_A.tif
-  artifactKey: Guid(bf2ed45332425d84fb9507bf6904ad9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/det_mud_A.tif using Guid(bf2ed45332425d84fb9507bf6904ad9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57afb9b09109eecaf1e0afa09213811a') in 0.049173 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Sun_Temple/Content/Textures/fol_grass1.tif
-  artifactKey: Guid(ed01cd6829cb6bc4790a67250f5ca5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/fol_grass1.tif using Guid(ed01cd6829cb6bc4790a67250f5ca5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb64633a6dd129399b982b050a3e0e2a') in 0.058823 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Sun_Temple/Content/Textures/prop_rugs_A.tif
-  artifactKey: Guid(4b8e44dd64bf29641bdcddfc2778840d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/prop_rugs_A.tif using Guid(4b8e44dd64bf29641bdcddfc2778840d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14b054527e1822c6de03882e1325ffba') in 0.053625 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Sun_Temple/Content/Textures/roof_clay_A.tif
-  artifactKey: Guid(2683032a776c70946aa141abe6d6a5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/roof_clay_A.tif using Guid(2683032a776c70946aa141abe6d6a5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cfcfdde1c350615882816282d0f1d56') in 0.057577 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Sun_Temple/Content/Textures/wood_tiling_A.tif
-  artifactKey: Guid(519d24984293b534db51aac8f23ef247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/wood_tiling_A.tif using Guid(519d24984293b534db51aac8f23ef247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '219d61f45eb286741c54fa816838fc50') in 0.074191 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Sun_Temple/Content/Textures/fol_bark2.tif
-  artifactKey: Guid(8d69f72c7999dd44cbb4c85507f0c32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/fol_bark2.tif using Guid(8d69f72c7999dd44cbb4c85507f0c32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd3185bd38dfbde2c49b2fd52ada949') in 0.046958 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Sun_Temple/Content/Textures/det_breakup4.tif
-  artifactKey: Guid(660ae878079e481469ae4df7f503e47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/det_breakup4.tif using Guid(660ae878079e481469ae4df7f503e47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b441fc3f5c034ef9884dab3d5b202c') in 0.083469 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Sun_Temple/Content/Textures/metal_plain_tiling_A.tif
-  artifactKey: Guid(2db352ea0b609724cb95c8a56a2419dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/metal_plain_tiling_A.tif using Guid(2db352ea0b609724cb95c8a56a2419dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '434395a7039820500bb2f5e34cadae55') in 0.079772 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Sun_Temple/Content/Textures/fx_spark_A.tif
-  artifactKey: Guid(2f6940ee1b74b5e46bddec08e53db413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/fx_spark_A.tif using Guid(2f6940ee1b74b5e46bddec08e53db413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8c9f9e92b68da6703068641e1016c6b') in 0.022694 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Sun_Temple/Content/Textures/bricks_plain_A.tif
-  artifactKey: Guid(7882944210f5e3146a864f31d9408f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/bricks_plain_A.tif using Guid(7882944210f5e3146a864f31d9408f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '212fe883e49d9d8a634121e119f306cd') in 0.116235 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Sun_Temple/Content/Textures/blankNormal.tif
-  artifactKey: Guid(1caea5e477aed4d4c82964b01cb242ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/blankNormal.tif using Guid(1caea5e477aed4d4c82964b01cb242ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50bec6bbefda77d86333bc94035b7d6e') in 0.047131 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Sun_Temple/Content/Textures/det_fabric_N.tif
-  artifactKey: Guid(815743d191c352147bce582074633ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/det_fabric_N.tif using Guid(815743d191c352147bce582074633ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45d5d18b44a3b09624e73059cc22c27d') in 0.088446 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Sun_Temple/Content/Textures/glass_patterned_EM.tif
-  artifactKey: Guid(c166bf3256e846a4c842b8d83ca1ebc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/glass_patterned_EM.tif using Guid(c166bf3256e846a4c842b8d83ca1ebc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '205d6cce3f7544497a2c58de7415116e') in 0.033969 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Sun_Temple/Content/Textures/det_breakup3.tif
-  artifactKey: Guid(472353c1b6ecbc14e9e187522d256f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/det_breakup3.tif using Guid(472353c1b6ecbc14e9e187522d256f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a57c3e324f4c5127bd1cbd0de467f628') in 0.066797 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Sun_Temple/Content/Textures/det_fabric_A.tif
-  artifactKey: Guid(caa08a5c68f553e42b202f9f7adcca47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/det_fabric_A.tif using Guid(caa08a5c68f553e42b202f9f7adcca47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddeedb39bfd8ab2edb6fac0312a44e0b') in 0.034698 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Sun_Temple/Content/Textures/clay_tiling_A.tif
-  artifactKey: Guid(ff9623ec0be04824f9aa894c5a987917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/clay_tiling_A.tif using Guid(ff9623ec0be04824f9aa894c5a987917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9542148d90b0efdd98b74d2d52627cdd') in 0.021760 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Sun_Temple/Content/Textures/ground_redclay_N.tif
-  artifactKey: Guid(94974a13c4c9ae94a99f468c1f2304ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/ground_redclay_N.tif using Guid(94974a13c4c9ae94a99f468c1f2304ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94778a498c55187e04fe2e28d0d461af') in 0.094576 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Sun_Temple/Content/Textures/plaster_white_N.tiff
-  artifactKey: Guid(b87324f48d72cb745965b6704c60c274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/plaster_white_N.tiff using Guid(b87324f48d72cb745965b6704c60c274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bc903db932a954c6d2e6530faba1163') in 0.085742 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Sun_Temple/Content/Textures/marble_R.tif
-  artifactKey: Guid(b81d019f8007d9d46808960003a8dd16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/marble_R.tif using Guid(b81d019f8007d9d46808960003a8dd16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a1117a9881697be2e24ac48e1f0881') in 0.073762 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Sun_Temple/Content/Textures/det_gloss_generic.tif
-  artifactKey: Guid(9cbb1993fa9ff774c87d78d9b8d2cee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/det_gloss_generic.tif using Guid(9cbb1993fa9ff774c87d78d9b8d2cee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4aa372346b3b8b99af659085a49d8cc') in 0.053318 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Sun_Temple/Content/Textures/lightcookie1_A.tif
-  artifactKey: Guid(73b82b0b77a2681409564f7e3e728f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/lightcookie1_A.tif using Guid(73b82b0b77a2681409564f7e3e728f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a6251353e109c85ec4e05f0501c0b3') in 0.089797 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Sun_Temple/Content/Textures/bricks_solid_A.tiff
-  artifactKey: Guid(c94462951e3a75a4b96e2d724ab77ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/bricks_solid_A.tiff using Guid(c94462951e3a75a4b96e2d724ab77ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d905020e7ee85dca82268b004bab68') in 0.076238 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Sun_Temple/Content/Textures/pavementA_tiling_MS.tif
-  artifactKey: Guid(44b1e89ea0a73ab4b9ddb40d9c01f41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/pavementA_tiling_MS.tif using Guid(44b1e89ea0a73ab4b9ddb40d9c01f41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c45ff9eaf7a032ec22a6f10fdd7b2ff') in 0.126871 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Sun_Temple/Content/Textures/hlp_uvgrid.tif
-  artifactKey: Guid(fc44f726b5ea4da4c92a5493df29157e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sun_Temple/Content/Textures/hlp_uvgrid.tif using Guid(fc44f726b5ea4da4c92a5493df29157e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a3aa04d543d2c2ab044477f8a858782') in 0.096158 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 20439.584024 seconds.
+  path: Assets/Assets/Models/Cat Test 2 High.fbx
+  artifactKey: Guid(b96e98bc8f6204f40b1b45ab8707f099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Models/Cat Test 2 High.fbx using Guid(b96e98bc8f6204f40b1b45ab8707f099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab9c055af902fba4f12b6724d66d848') in 0.452890 seconds 
