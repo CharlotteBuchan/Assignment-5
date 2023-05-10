@@ -12,7 +12,7 @@ namespace SunTemple
         public bool DoorClosed = true;
         public float OpenRotationAmount = 90;
         public float RotationSpeed = 1f;
-        public float MaxDistance = 3.0f;
+        public float MaxDistance = 5.0f;
 		public string playerTag = "Player";
 		private Collider DoorCollider;
 
