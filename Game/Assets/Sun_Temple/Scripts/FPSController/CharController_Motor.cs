@@ -11,7 +11,7 @@ namespace SunTemple{
 		public float sensitivity = 60.0f;
 		CharacterController character;
 		public GameObject cam;
-		float moveFB, moveLR;	
+		float moveFB, moveLR;
 		float rotHorizontal, rotVertical;
 		public bool webGLRightClickRotation = true;
 		float gravity = -9.8f;
